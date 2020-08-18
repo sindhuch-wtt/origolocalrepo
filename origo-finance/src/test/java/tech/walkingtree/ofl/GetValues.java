@@ -23,7 +23,7 @@ public class GetValues
 {
 	public String[] ReadfromExcel() throws Exception
 	 {
-		 File f= new File("C:\\Users\\Walkingtree\\Project\\Login\\UploadExcelfile.xlsx");
+		 File f= new File("E:\\ExcelFiles\\UploadExcelfile.xlsx");
 			FileInputStream fi= new FileInputStream(f); //Read permission
 			Workbook wb= WorkbookFactory.create(fi);    //Access Excel File
 			Sheet sh=wb.getSheet("Sheet1");
