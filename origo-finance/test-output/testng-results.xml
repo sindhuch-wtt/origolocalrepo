@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54990" started-at="2020-08-17T14:06:45Z" finished-at="2020-08-17T14:07:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54990" started-at="2020-08-17T14:06:45Z" finished-at="2020-08-17T14:07:40Z">
+      <class name="tech.walkingtree.ofl.CompareExcelWeb">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="setupClass" is-config="true" duration-ms="23433" started-at="2020-08-17T14:06:45Z" finished-at="2020-08-17T14:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="EMIAmount()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="EMIAmount" duration-ms="10691" started-at="2020-08-17T14:07:08Z" finished-at="2020-08-17T14:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMIAmount -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="teardown" is-config="true" duration-ms="1" started-at="2020-08-17T14:07:19Z" finished-at="2020-08-17T14:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ODAmount()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="ODAmount" duration-ms="10380" started-at="2020-08-17T14:07:19Z" finished-at="2020-08-17T14:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ODAmount -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="teardown" is-config="true" duration-ms="1" started-at="2020-08-17T14:07:29Z" finished-at="2020-08-17T14:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="TotalLPIDue()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="TotalLPIDue" duration-ms="10402" started-at="2020-08-17T14:07:29Z" finished-at="2020-08-17T14:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalLPIDue -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tech.walkingtree.ofl.CompareExcelWeb@72d818d1]" name="teardown" is-config="true" duration-ms="1" started-at="2020-08-17T14:07:40Z" finished-at="2020-08-17T14:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tech.walkingtree.ofl.CompareExcelWeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
