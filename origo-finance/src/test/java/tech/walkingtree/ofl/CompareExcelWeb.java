@@ -39,7 +39,7 @@ public class CompareExcelWeb
 			driver.get("http://ofwebqa.walkingtree.tech/#/signin");
 			Thread.sleep(10000);
 			driver.findElementByXPath("//input[@placeholder='User ID']").click();			
-			File f= new File("C:\\Users\\Walkingtree\\Project\\Login\\LoginCredentials.xlsx");
+			File f= new File("E:\\ExcelFiles\\LoginCredentials.xlsx");
 			FileInputStream fi= new FileInputStream(f); //Read permission
 			Workbook wb= WorkbookFactory.create(fi);    //Access Excel File
 			Sheet sh=wb.getSheet("Sheet1");
